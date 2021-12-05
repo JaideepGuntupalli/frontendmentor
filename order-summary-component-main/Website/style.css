@@ -142,6 +142,7 @@ body {
     background: url("images/pattern-background-desktop.svg") no-repeat;
     min-height: 100vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
