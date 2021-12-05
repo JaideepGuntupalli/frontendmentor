@@ -32,13 +32,13 @@ Users should be able to:
 ### Mobile Screenshot
 
 <p align="center">
-  <img width="460" height="300" src="Screenshots/screenshot-mobile.png">
+  <img width="375" src="Screenshots/screenshot-mobile.png">
 </p>
 
 ### Links
 
--   Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/responsive-order-summary-card-challenge-using-css-VxJ-UEC7m)
--   Live Site URL: [Add live site URL here](https://order-summary-card-bglvqyx3e-jaideepguntupalli.vercel.app)
+-   Solution URL: [Frontend Solution Submission](https://www.frontendmentor.io/solutions/responsive-order-summary-card-challenge-using-css-VxJ-UEC7m)
+-   Live Site URL: [Vercel Deployment](https://order-summary-card-bglvqyx3e-jaideepguntupalli.vercel.app)
 
 ## My process
 
@@ -60,6 +60,6 @@ I have started understanding how cards are made generally but from my next chall
 
 ## Author
 
--   Website - [Add your name here](https://blog.jaideepguntupalli.com)
--   Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/JaideepGuntupalli)
--   Twitter - [@yourusername](https://www.twitter.com/gjdeep)
+-   Blog - [Jaideep Guntupalli](https://blog.jaideepguntupalli.com)
+-   Frontend Mentor - [@JaideepGuntupalli](https://www.frontendmentor.io/profile/JaideepGuntupalli)
+-   Twitter - [@gjdeep](https://www.twitter.com/gjdeep)
