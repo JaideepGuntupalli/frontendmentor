@@ -1,0 +1,293 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol,
+ul {
+    list-style: none;
+}
+blockquote,
+q {
+    quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: "";
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+html {
+    box-sizing: border-box;
+    font-family: "Red Hat Display", sans-serif;
+    letter-spacing: 0.5px;
+}
+
+body {
+    background: hsl(225, 100%, 94%);
+}
+
+.overlay {
+    background: url("images/pattern-background-desktop.svg") no-repeat;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background: white;
+    border-radius: 1em;
+    max-width: 396px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.cover {
+    border-radius: 1em 1em 0 0;
+}
+
+.details {
+    padding: 0 25px 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.details h1 {
+    font-weight: 900;
+    font-size: 1.5em;
+    margin: 45px 0 20px;
+}
+
+.desc {
+    font-size: 1em;
+    width: 85%;
+    text-align: center;
+    line-height: 1.5;
+    color: hsl(224, 23%, 55%);
+    margin-bottom: 15px;
+    font-size: 0.875em;
+    font-weight: 400;
+}
+
+.rate-card {
+    display: flex;
+    background: hsl(225, 100%, 98%);
+    padding: 25px 25px;
+    border-radius: 0.5em;
+    width: 75%;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 1em;
+}
+
+.music {
+    margin-right: 15px;
+    width: 40px;
+}
+
+.change {
+    color: hsl(245, 75%, 52%);
+    margin-left: auto;
+    font-size: 0.75em;
+    font-weight: 700;
+    transition: color ease-in 100ms;
+}
+
+.info .plan {
+    font-weight: 700;
+    margin-bottom: 10px;
+    font-size: 0.875em;
+}
+
+.info .rate {
+    color: hsl(224, 23%, 55%);
+    font-size: 0.875em;
+}
+
+.pay {
+    text-decoration: none;
+    background: hsl(245, 75%, 52%);
+    color: white;
+    width: 90%;
+    padding: 15px 0;
+    text-align: center;
+    margin: 25px 0 15px;
+    border-radius: 0.625em;
+    font-size: 0.75em;
+    font-weight: 700;
+    -webkit-box-shadow: 0px 16px 26px 0px hsl(245, 75%, 52%, 0.25);
+    -moz-box-shadow: 0px 16px 26px 0px hsl(245, 75%, 52%, 0.25);
+    box-shadow: 0px 16px 26px 0px hsl(245, 75%, 52%, 0.25);
+    transition: background ease-out 150ms;
+}
+
+.cancel {
+    margin: 15px 0;
+    color: hsl(224, 23%, 55%);
+    font-size: 0.75em;
+    font-weight: 700;
+    text-decoration: none;
+    transition: color ease-out 150ms;
+}
+
+.change:hover,
+.change:focus {
+    color: hsl(258, 75%, 52%);
+    text-decoration: none;
+}
+
+.pay:hover,
+.pay:focus {
+    background: hsl(258, 75%, 52%);
+}
+
+.cancel:hover,
+.cancel:focus {
+    color: black;
+}
+
+@media (max-width: 450px) {
+    .card {
+        max-width: 325px;
+    }
+
+    .desc {
+        width: 90%;
+        font-size: 0.875em;
+    }
+
+    .rate-card {
+        padding: 15px 20px;
+        width: 85%;
+    }
+
+    .change {
+        font-weight: 900;
+    }
+
+    .music {
+        width: 50px;
+    }
+
+    .pay {
+        font-size: 0.875em;
+    }
+
+    .cancel {
+        font-size: 1em;
+    }
+}
