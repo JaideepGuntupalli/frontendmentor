@@ -60,6 +60,7 @@ I have started understanding how cards are made generally but from my next chall
 
 ## Author
 
+-   LinkedIn - [Jaideep Guntupalli](https://linkedin.com/in/gjdeep)
 -   Blog - [Jaideep Guntupalli](https://blog.jaideepguntupalli.com)
 -   Frontend Mentor - [@JaideepGuntupalli](https://www.frontendmentor.io/profile/JaideepGuntupalli)
 -   Twitter - [@gjdeep](https://www.twitter.com/gjdeep)
