@@ -30,8 +30,8 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Links
 
--   Solution URL: [Frontend Solution Submission](https://www.frontendmentor.io/solutions/responsive-order-summary-card-challenge-using-css-VxJ-UEC7m)
--   Live Site URL: [Vercel Deployment](https://order-summary-card-bglvqyx3e-jaideepguntupalli.vercel.app)
+-   Solution URL: [Frontend Solution Submission](https://www.frontendmentor.io/solutions/qr-code-component-with-html-and-css-nNI6bZ3wi)
+-   Live Site URL: [Vercel Deployment](https://qr-code-component-bice.vercel.app/)
 
 ### Built with
 
